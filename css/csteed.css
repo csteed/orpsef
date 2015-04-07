@@ -119,3 +119,13 @@ margin-top: -1px;
 letter-spacing: 0.065em;
 }
 
+div.footer ul {
+   clear: both;
+   float: left;
+}
+
+div.footer li {
+   float: left;
+   padding-right: 10px;
+}
+
