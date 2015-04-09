@@ -14,7 +14,7 @@
     <style type="text/css">
       body {
         padding-top: 40px;
-        min-height: 2000px;
+        min-height: 1000px;
         /*padding-bottom: 40px;*/
       }
     </style>
@@ -33,11 +33,18 @@
 
     <!-- Fixed navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="navbar-brand" href="./index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;&nbsp;ORPSEF</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+
+        <div id="navbar" class="navbar-collapse collapse" >
           <ul class="nav navbar-nav">
             <li><a href="./giving.html">Ways to Give</a></li>
             <li><a href="./campaign.html">Current Campaign</a></li>
@@ -65,26 +72,30 @@
 
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
-
-
-
+        
         
 
-        <h2>Oak Ridge Public Schools Education Foundation</h2>
-
-        <hr class="soften">
+       
 
         <div class="row">
+          <div class="col-md-12">
+            <img class="pull-left" src="img/orpsef-logo2.png" width=100>
+            <h2>&nbsp;&nbsp;Oak Ridge Public Schools Education Foundation</h2>
+            <h3>&nbsp;&nbsp;<i>Enhancing public school education</i></h3>
+          </div>
+          <div class="col-md-12">
+            <hr class="soften">
+          </div>
           <div class="col-md-6">
             <blockquote>
-              <p>The Oak Ridge School System enjoys the support and confidence of 
+              <p>"The Oak Ridge School System enjoys the support and confidence of 
                 a community that values education. The Foundation allows us to 
-                build on that support and make our schools the very best they can be.</p>
-              <footer>Thom Mason, Chairman ORPSEF</footer>
+                build on that support and make our schools the very best they can be."</p>
+              <footer>Thom Mason, ORPSEF Chairman</footer>
             </blockquote>
 
             <p>The Oak Ridge Public Schools Education Foundation (ORPSEF)
-            invests in the Oak Ridge Public Schools beyond what public tax dollars 
+            invests in the <a href="http://www.ortn.edu/" target="_blank">Oak Ridge Public Schools</a> beyond what public tax dollars 
             can provide to ensure the highest quality of education for our students.  
             The Foundation raises funds 
             through grants and private donations and then invests in enhanced 
@@ -103,15 +114,19 @@
               <div class="col-md-6">  
                 <center>
                   <img class="img-thumbnail" src="img/ThomMason.jpg" alt="Dr. Thom Mason"/>
-                  <p><strong>Dr.&nbsp;Thomas E.&nbsp;Mason</stong><br>
+                  <div class="caption">
+                    <p><strong>Dr.&nbsp;Thomas E.&nbsp;Mason</stong><br>
                     <i>Chairman of the Board</i>
+                  </div>
                 </center>
               </div>
               <div class="col-md-6">  
                 <center>
                   <img class="img-thumbnail" src="img/JessicaSteed.jpg" alt="Mrs. Jessica Steed"/>
-                  <p><strong>Mrs.&nbsp;Jessica Steed</stong><br>
+                  <div class="caption">
+                    <p><strong>Mrs.&nbsp;Jessica Steed</stong><br>
                     <i>Executive Director</i>
+                  </div>
                 </center>
               </div>
             </div>
