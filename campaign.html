@@ -88,22 +88,10 @@
 <!--         <p class="lead">In the Spring of 2014, $85,000 was awarded through the ORPSEF
           Critical Difference Campaign. What critical difference did your donation make?</p>
  -->
-        <p>In the spring of 2012, the Foundation began a campaign to raise $500,000
-          in donations over 5 years to enhance public education by providing $100,000
-          in grants annually available to all teachers in all of Oak Ridge’s Public
-          Schools. The campaign provides one-time grants to teachers for resources
-          designed to enhance learning for students in pre-K through high school. The
-          grants, most of which are in the range of $500-$5,000, are awarded each
-          spring on a competitive basis in response to proposals submitted by teachers
-          and approved by the school administration and the Foundation board.</p>
 
-        <p>The Foundation’s grant program has generated infectious interest among
-          teachers. They feel the grants give them the tools they need to enhance
-          student learning and performance. Although the Foundation has provided more
-          than $785,000 in grants since 2005, this amount has funded only about one-third
-          of the teacher’s proposals. Education is Oak Ridge’s most valuable asset.
-          Helping our teachers make the critical difference for their students is one
-          of the most important things we can do to sustain the quality of our schools.<p>
+        <p>In the spring of 2012, the Foundation began a campaign to raise $100,000 in grants annually available to all teachers in all of Oak Ridge’s Public Schools. The campaign provides one-time grants to teachers for resources designed to enhance learning for students in pre-K through high school. The grants, most of which are in the range of $3,000-$4,000, are awarded each spring on a competitive basis in response to proposals submitted by teachers and approved by the school administration and the Foundation board.</p>
+
+        <p>The Foundation's grant program has generated infectious interest among teachers. They feel the grants give them the tools they need to enhance student learning and performance. Although the Foundation has provided more than $900,000 in grants since 2005, this amount has funded only about one-third of the teacher’s proposals. Education is Oak Ridge’s most valuable asset. Helping our teachers make the critical difference for their students is one of the most important things we can do to sustain the quality of our schools.</p>
 
         <center>
           <div class="well" style="background-color: white">
@@ -148,23 +136,23 @@
 
       function drawRightY() {
         var data = google.visualization.arrayToDataTable([
-          ['Year', 'Budget', 'Requested'],
-          ['2010', 30000, 93600],
-          ['2011', 30000, 95993],
-          ['2012', 30000, 142962],
-          ['2013', 80000, 146374],
-          ['2014', 80000, 296275],
-          ['2015', 94000, 149911],
+          ['Year', 'Funded', 'Requested', 'Other Special Grants'],
+          // ['2005-2012', 408000, 1120083, 0],
+          ['2013', 146374, 81329, 2200],
+          ['2014', 80756, 296275, 0],
+          ['2015', 94044, 149911, 2000],
+          ['2016', 84802, 136469, 52616],
+          ['2017', 90154, 127865, 1000],
         ]);
 
         var options = {
           chart: {
-            title: 'ORPSEF Grants Program Funding History'
+            title: 'ORPSEF Grants Program Recent Funding History'
           },
-          bars: 'horizontal',
+          bars: 'vertical',
           axes: {
             y: {
-              0: {side: 'right'}
+              0: {side: 'left'}
             }
           }
         };
